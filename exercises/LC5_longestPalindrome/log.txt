@@ -1,0 +1,65 @@
+Outside for: R = 0, C = 0
+------------------------------
+-------------- # --------------
+------------------------------
+Inside for start: R = 0, C = 0, i = 0, iMirror = 0, p[i] = 0, p[iMirror] = 0
+Inside for after while: R = 0, C = 0, i = 0, iMirror = 0, p[i] = 0, p[iMirror] = 0
+Inside for end: R = 0, C = 0, i = 0, iMirror = 0, p[i] = 0, p[iMirror] = 0
+------------------------------
+-------------- #c --------------
+------------------------------
+Inside for start: R = 0, C = 0, i = 1, iMirror = -1, p[i] = 0, p[iMirror] = undefined
+Inside while:  2 0 #
+Inside for after while: R = 0, C = 0, i = 1, iMirror = -1, p[i] = 1, p[iMirror] = undefined
+Inside for if(i + p[i] > R), i = 1, p[i] = 1, R = 0
+Inside for end: R = 2, C = 1, i = 1, iMirror = -1, p[i] = 1, p[iMirror] = undefined
+------------------------------
+------------- #c# -------------
+------------------------------
+Inside for start: R = 2, C = 1, i = 2, iMirror = 0, p[i] = 0, p[iMirror] = 0
+Inside for after while: R = 2, C = 1, i = 2, iMirror = 0, p[i] = 0, p[iMirror] = 0
+Inside for end: R = 2, C = 1, i = 2, iMirror = 0, p[i] = 0, p[iMirror] = 0
+------------------------------
+------------- #c#b -------------
+------------------------------
+Inside for start: R = 2, C = 1, i = 3, iMirror = -1, p[i] = 0, p[iMirror] = undefined
+Inside while:  4 2 #
+Inside for after while: R = 2, C = 1, i = 3, iMirror = -1, p[i] = 1, p[iMirror] = undefined
+Inside for if(i + p[i] > R), i = 3, p[i] = 1, R = 2
+Inside for end: R = 4, C = 3, i = 3, iMirror = -1, p[i] = 1, p[iMirror] = undefined
+------------------------------
+------------ #c#b# ------------
+------------------------------
+Inside for start: R = 4, C = 3, i = 4, iMirror = 2, p[i] = 0, p[iMirror] = 0
+Inside while:  5 3 b
+Inside while:  6 2 #
+Inside for after while: R = 4, C = 3, i = 4, iMirror = 2, p[i] = 2, p[iMirror] = 0
+Inside for if(i + p[i] > R), i = 4, p[i] = 2, R = 4
+Inside for end: R = 6, C = 4, i = 4, iMirror = 2, p[i] = 2, p[iMirror] = 0
+------------------------------
+------------ #c#b#b ------------
+------------------------------
+Inside for start: R = 6, C = 4, i = 5, iMirror = 3, p[i] = 0, p[iMirror] = 1
+Inside for after while: R = 6, C = 4, i = 5, iMirror = 3, p[i] = 1, p[iMirror] = 1
+Inside for end: R = 6, C = 4, i = 5, iMirror = 3, p[i] = 1, p[iMirror] = 1
+------------------------------
+----------- #c#b#b# -----------
+------------------------------
+Inside for start: R = 6, C = 4, i = 6, iMirror = 2, p[i] = 0, p[iMirror] = 0
+Inside for after while: R = 6, C = 4, i = 6, iMirror = 2, p[i] = 0, p[iMirror] = 0
+Inside for end: R = 6, C = 4, i = 6, iMirror = 2, p[i] = 0, p[iMirror] = 0
+------------------------------
+----------- #c#b#b#a -----------
+------------------------------
+Inside for start: R = 6, C = 4, i = 7, iMirror = 1, p[i] = 0, p[iMirror] = 1
+Inside while:  8 6 #
+Inside for after while: R = 6, C = 4, i = 7, iMirror = 1, p[i] = 1, p[iMirror] = 1
+Inside for if(i + p[i] > R), i = 7, p[i] = 1, R = 6
+Inside for end: R = 8, C = 7, i = 7, iMirror = 1, p[i] = 1, p[iMirror] = 1
+------------------------------
+---------- #c#b#b#a# ----------
+------------------------------
+Inside for start: R = 8, C = 7, i = 8, iMirror = 6, p[i] = 0, p[iMirror] = 0
+Inside for after while: R = 8, C = 7, i = 8, iMirror = 6, p[i] = 0, p[iMirror] = 0
+Inside for end: R = 8, C = 7, i = 8, iMirror = 6, p[i] = 0, p[iMirror] = 0
+bb
